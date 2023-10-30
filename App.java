@@ -43,6 +43,31 @@ public class App {
         // int myInt = (int) myFloat;
         // System.out.println(myInt);
 
+        // OPERATORS
+
+        // int x = 1+5;        //output is 6
+        // System.out.println(x);
+
+        // x+=3;
+
+        // System.out.println(x);
+        // System.out.println(++x);    //output is 10
+        // System.out.println(2+x);    //output is 12
+
+        // int y = 10;
+        // System.out.println(++y);    //output is 11
+        // System.out.println(y--);    //output is 10
+        // System.out.println(y);
+
+
+        int aa = 5;
+        int ab = 10;
+
+        System.out.println(aa > ab);    //outputs false because 5 is not greater than 10
+        System.out.println(aa > ab || aa < ab);    //outputs true because 5 is not greater than 10 but 5 is less than 10
+
+
+        // STRING FUNCTIONS
 
     }
 }
