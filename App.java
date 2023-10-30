@@ -79,5 +79,14 @@ public class App {
         System.out.println(world.toUpperCase());    //outputs HELLO WORLD
         System.out.println(world.toLowerCase());    //outputs hello world
         System.out.println(world.toUpperCase()!=(world.toLowerCase()));    //outputs true because the two strings are not the same
+
+        // finding a character in a string
+
+        System.out.println(world.indexOf("World"));     //outputs 6
+
+        String hello = "Hello";
+        String me = "Me";
+
+        System.out.println(hello.concat(" ").concat(me));   // Outputs Hello Me
     }
 }
