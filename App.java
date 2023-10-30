@@ -15,20 +15,20 @@ public class App {
         // int age = 17;
         // System.out.println(age);
         
-        final int num = 5;
+        // final int num = 5;
 
-        System.out.println(num);
+        // System.out.println(num);
 
-        String myName = "Wilson Nshizirungu";
-        String englishWord ="I am";
-        int myAge = 17;
-        System.out.println(myName+" "+englishWord+" "+myAge);
+        // String myName = "Wilson Nshizirungu";
+        // String englishWord ="I am";
+        // int myAge = 17;
+        // System.out.println(myName+" "+englishWord+" "+myAge);
 
-        String $car = "Lamborghini";
+        // String $car = "Lamborghini";
 
-        String _color = "Dark blue";
+        // String _color = "Dark blue";
 
-        System.out.println("I have a "+ $car+ " car, and it is of a "+_color+" color");
+        // System.out.println("I have a "+ $car+ " car, and it is of a "+_color+" color");
 
 
         // type casting
@@ -60,14 +60,24 @@ public class App {
         // System.out.println(y);
 
 
-        int aa = 5;
-        int ab = 10;
-
-        System.out.println(aa > ab);    //outputs false because 5 is not greater than 10
-        System.out.println(aa > ab || aa < ab);    //outputs true because 5 is not greater than 10 but 5 is less than 10
+        // int aa = 5;
+        // int ab = 10;
+        // System.out.println(aa > ab);    //outputs false because 5 is not greater than 10
+        // System.out.println(aa > ab || aa < ab);    //outputs true because 5 is not greater than 10 but 5 is less than 10
 
 
         // STRING FUNCTIONS
 
+        // string length
+        String name = "Wilson Nshizirungu";
+        System.out.println("My name is: "+name);
+        System.out.println("My name has: "+name.length()+" Characters");
+
+        // lower and upper cases
+
+        String world = "Hello World";
+        System.out.println(world.toUpperCase());    //outputs HELLO WORLD
+        System.out.println(world.toLowerCase());    //outputs hello world
+        System.out.println(world.toUpperCase()!=(world.toLowerCase()));    //outputs true because the two strings are not the same
     }
 }
