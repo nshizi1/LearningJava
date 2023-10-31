@@ -159,11 +159,21 @@ public class App {
         //     a--;
         // }
 
-        int b=1;
-        do{
-            System.out.println(b);
-            b++;
+        // int b=1;
+        // do{
+        //     System.out.println(b);
+        //     b++;
+        // }
+        // while(b<=10);
+
+        // for(int a =1;a<=10;a+=2){
+        //     System.out.println(a);
+        // }
+
+        String cars[] = {"Volvo","BMW","RollsRoyce","GMC"};
+
+        for(String i : cars){
+            System.err.println(i);
         }
-        while(b<=10);
     }
 }
