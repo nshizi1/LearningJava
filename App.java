@@ -100,5 +100,70 @@ public class App {
         // System.out.println(Math.random()*101);      //random number btn 0 and 100 (not integer)
         // int number = (int)(Math.random()*101);
         // System.out.println(number);
+
+
+        // boolean
+
+        // int a = 5;
+        // int b = 10;
+        // System.out.println(a>b);    //outputs false bcz a isn't greater than b
+
+        // int userAge = 18;
+        // int votingAge = 18;
+        // // System.out.println(userAge>=votingAge);     //outputs false
+        // if(userAge>=votingAge){
+        //     System.out.println("User is allowed to vote");
+        // }else{
+        //     System.out.println("User's age don't allow the voting");
+        // }
+
+
+        //SWITCH CASE
+        
+        // int day = 10;
+        // switch(day){
+        //     case 1:
+        //     System.out.println("Monday");
+        //     break;
+        //     case 2:
+        //     System.out.println("Tuesday");
+        //     break;
+        //     case 3:
+        //     System.out.println("Wednesday");
+        //     break;
+        //     case 4:
+        //     System.out.println("Thursday");
+        //     break;
+        //     case 5:
+        //     System.out.println("Friday");
+        //     break;
+        //     case 6:
+        //     System.out.println("Saturday");
+        //     break;
+        //     case 7:
+        //     System.out.println("Sunday");
+        //     break;
+        //     default:
+        //     System.out.println("Invalid Input!!");
+
+        // }
+
+        // for(int i=1;i<=10;i++){
+        //     System.out.println(i);
+        // }
+
+
+        // int a=10;
+        // while (a>=1) {
+        //     System.out.println(a);
+        //     a--;
+        // }
+
+        int b=1;
+        do{
+            System.out.println(b);
+            b++;
+        }
+        while(b<=10);
     }
 }
