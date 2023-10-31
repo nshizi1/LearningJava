@@ -69,24 +69,36 @@ public class App {
         // STRING FUNCTIONS
 
         // string length
-        String name = "Wilson Nshizirungu";
-        System.out.println("My name is: "+name);
-        System.out.println("My name has: "+name.length()+" Characters");
+        // String name = "Wilson Nshizirungu";
+        // System.out.println("My name is: "+name);
+        // System.out.println("My name has: "+name.length()+" Characters");
 
-        // lower and upper cases
+        // // lower and upper cases
 
-        String world = "Hello World";
-        System.out.println(world.toUpperCase());    //outputs HELLO WORLD
-        System.out.println(world.toLowerCase());    //outputs hello world
-        System.out.println(world.toUpperCase()!=(world.toLowerCase()));    //outputs true because the two strings are not the same
+        // String world = "Hello World";
+        // System.out.println(world.toUpperCase());    //outputs HELLO WORLD
+        // System.out.println(world.toLowerCase());    //outputs hello world
+        // System.out.println(world.toUpperCase()!=(world.toLowerCase()));    //outputs true because the two strings are not the same
 
-        // finding a character in a string
+        // // finding a character in a string
 
-        System.out.println(world.indexOf("World"));     //outputs 6
+        // System.out.println(world.indexOf("World"));     //outputs 6
 
-        String hello = "Hello";
-        String me = "Me";
+        // String hello = "Hello";
+        // String me = "Me";
 
-        System.out.println(hello.concat(" ").concat(me));   // Outputs Hello Me
+        // System.out.println(hello.concat(" ").concat(me));   // Outputs Hello Me
+
+        //special characters
+
+        // String english = "It\'s a boy";
+        // System.out.println(english);
+        // String DoubleQuote = "\"Success\"";     //outputs "Success"
+        // System.out.println(DoubleQuote);
+
+        // System.out.println(Math.random());      //random number btn 0.0 and 1.0 inclusive and exclusive respectively
+        // System.out.println(Math.random()*101);      //random number btn 0 and 100 (not integer)
+        // int number = (int)(Math.random()*101);
+        // System.out.println(number);
     }
 }
